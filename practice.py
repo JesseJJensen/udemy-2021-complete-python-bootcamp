@@ -111,3 +111,142 @@ d = {
 
 # print(d.keys())
 # print(d.values())
+
+# tuples
+t = (1,2,3)
+
+# sets
+# myset = set()
+# myset.add(1)
+# myset.add(2)
+# myset.add(2)
+# print(myset)
+
+# Booleans
+# print(1>2)
+
+#creating files using mode= r,a, or w (read, append, write)
+
+# with open('myNewFile.txt',mode='w') as f:
+#  f.write('I created this file')
+
+# with open('test.txt',mode='w') as f:
+#  f.write('Hello World')
+# with open('test2.txt',mode='w') as f:
+#  f.write('Hello World')
+
+
+# if 3>2:
+#      print('its true')
+
+hungry = False
+# if hungry:
+#      print('feed me')
+# else:
+#      print('Im not hungry')
+
+
+# loc = 'house'
+# if loc == 'house':
+#      print('welcome home')
+# elif loc == 'wawa':
+#      print('filling up at wawa')
+# elif loc == '7/11':
+#      print('filling up at 7/11')
+# else:
+#      print('in route')
+
+# looksOld = False
+# age = 22
+# if looksOld:
+#      print('What will you have to drink?')
+# elif age >=21:
+#      print('ID says you are old enough, what will you have to drink?')
+# else:
+#      print('Get out!')
+
+
+# name = 'amy'
+# if name == 'jesse':
+#      print(name)
+# elif name == 'sammy':
+#      print('hello, ' + name)
+# else:
+#      print('Is your name ' + name + '?')
+
+
+# # # iterate through array using forloop 
+myList = [1,2,3,4,5,6,7,8,9,10]
+# # for nums in myList:
+# #      print(nums)
+# for nums in myList:
+#      if nums % 2 == 0:
+#           print(nums)
+#      else:
+#           print(f'{nums} is odd')
+# num_sum = 0
+# for nums in myList:
+#      num_sum = num_sum + nums
+# print(num_sum) # prints sum; if print isinside forloop it will print running tally 
+
+# # myPeeps = ['carter','amy','jesse','joe']
+# # for peeps in myPeeps:
+# #      print(peeps)
+
+
+# iterate through string using forloop
+# myString = 'HELLO WORLD'
+# for letters in myString:
+#      print(letters)
+
+# myTupple = (1,2,3)
+# for tup in myTupple:
+#      print(tup)
+
+# myTuppleTwo = (1,2,3)
+# for _ in myTuppleTwo:
+#      print('thats cool')
+
+# my_list = [(1,2),(3,4),(5,6),(7,8),(9,10)]
+# for tups in my_list:
+#      print(tups)
+     
+# for a,b in my_list:
+#      print(a)
+#      print(b)
+
+# my_listTwo = [(1,2,3),(4,5,6),(7,8,9),(10,11,12),(13,14,15)]
+# for a,b,c in my_listTwo:
+#      print(a)
+#      print(b)
+#      print(c)
+
+
+# iterate through dictionary
+d = {'k1':1,'k2':2,'k3':'three'}
+# for things in d:
+#      print(things) # k1 k2 k3
+
+# for things in d.values():
+#      print(things) # 1 2 three
+
+# for things in d.items():
+#      print(things) # ('k1', 1) ('k2', 2) ('k3', 'three')
+
+# for a,b in d.items(): # k1 1   k2 2   k3 three
+#      print(a,b)
+
+# for key,value in d.items():
+#      print(value) # 1 2 three
+
+
+# while loops
+x = 0
+while x < 5:
+     print(f'the value of x is {x}')
+     x += 1
+
+
+# break, continue, pass
+
+
